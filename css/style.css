@@ -247,7 +247,8 @@ background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../
   #navbar {
     padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
   }
-
+	html {
+		font-size: 50%;}
   #navbar a {
     /*float: none;
     display: block;
