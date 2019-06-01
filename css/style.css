@@ -151,6 +151,7 @@ background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../
 	text-align: center;
 	color: #fff;
 	font-size: 4.5rem;
+	margin-top: 5rem;
 	/*align-self: center;*/
 	justify-content: center;
 
