@@ -43,7 +43,7 @@ body {
 .accordionWrapper {
 	display: grid;
 	grid-template-rows: min-content;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	 /*grid-template-rows: min-content;*/
   
   grid-row-gap: 5px;
@@ -246,10 +246,12 @@ background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../
 /*@media screen and (max-width: 580px) {*/
 @media screen and (max-width: 730px) {
   #navbar {
-    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    padding: 4px 4px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
   }
-	html {
-		font-size: 50%;}
+html {
+	font-size: 30%;
+}
+
   #navbar a {
     /*float: none;
     display: block;
@@ -260,6 +262,7 @@ background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../
   }
 #logo {
 	justify-self: center;
+	/*display: none;*/
 }
 
 #navbar-right {
@@ -278,6 +281,6 @@ background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../
 	padding: 3rem 0;
 	}
 
-.accordionItemHeading:hover {
+/*.accordionItemHeading:hover {
 	background-color: #0573bc;
-}	
+}	*/
