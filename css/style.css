@@ -43,12 +43,12 @@ body {
 .accordionWrapper {
 	display: grid;
 	grid-template-rows: min-content;
-	grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	 /*grid-template-rows: min-content;*/
   
   grid-row-gap: 5px;
   grid-column-gap: 20px;
-  max-width: 1700px;
+  max-width: 1600px;
   margin: 0 auto;
 	/*grid-template-columns: 8rem minmax(6rem, 1fr) repeat(8, minmax(min-content, 14rem) minmax(6rem, 1fr);*/
 	/*grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];*/
@@ -284,3 +284,16 @@ html {
 /*.accordionItemHeading:hover {
 	background-color: #0573bc;
 }	*/
+
+.about-us {
+	max-width: 160rem;
+	margin: 0 auto;
+}
+
+.footer {
+	display: grid;
+	grid-row-gap: 1.5rem;
+	margin-top: 5rem;
+	justify-content: center;
+	text-align: center;
+}
