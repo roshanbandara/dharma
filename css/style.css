@@ -245,8 +245,8 @@ background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../
 }
 
 /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-/*@media screen and (max-width: 580px) {*/
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 580px) {
+/* @media screen and (max-width: 730px) { */
   #navbar {
     padding: 4px 4px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
   }
